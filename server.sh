@@ -81,6 +81,8 @@ check_win() {
 }
 
 # 0.5 Envia a stdout si el moviment és vàlid (echo "VALID" o echo "NOT_VALID")
+# TODO: Per si utilitzeu aquesta versió, la manera de fer crida a la funció:
+#   valid_pos=$(check_valid_pos "$pos")
 check_valid_pos() {
 	local aux_pos="$1"
 
